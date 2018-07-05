@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+	<head>
+		<title> OBJECT STORAGE </title>
+	</head>
+	<body style="background-color:powderblue;">
+		<h1> PLEASE ENTER THE FOLLOWING DETAILS </h1>
+		<form action="/cgi-bin/obstaas.py" method="POST">
+		<fieldset>
+  			<legend>STORAGE NAME AND SIZE</legend>
+  			Storage Name :<br>
+  			<input name="name" type="text">
+  			<br>
+  			Storage Size:<br>
+  			<input name="size" type="number">
+  			<br><br>
+  			<input type="submit" value="Submit">
+ 			<input type="reset">
+ 		<fieldset>
+		</form> 
+
+        <form action="http://0.0.0.0/cgi-bin/lists.py" method="POST">
+
+                 <b>To get the current list of storage </b>
+  			<input type="submit" value="Submit">
+ 			<input type="reset">
+ 		
+        </form>
+	</body>
+</html>
+
